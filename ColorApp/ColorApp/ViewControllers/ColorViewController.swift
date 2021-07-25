@@ -21,6 +21,7 @@ class ColorViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let settingsVC = segue.destination as? SettingsViewController else { return }
         settingsVC.delegate = self
+        
         var red: CGFloat = 0
         var green: CGFloat = 0
         var blue: CGFloat = 0
@@ -30,11 +31,6 @@ class ColorViewController: UIViewController {
         settingsVC.greenValue = Float(green)
         settingsVC.blueValue = Float(blue)
     }
-    
-//    @IBAction func unwind(unwindSegue: UIStoryboardSegue) {
-//        delegate.setNewColor(for: redColor, for: greenColor, and: blueColor)
-//
-//    }
 }
 
 extension ColorViewController: SettingsViewControllerDelegate {

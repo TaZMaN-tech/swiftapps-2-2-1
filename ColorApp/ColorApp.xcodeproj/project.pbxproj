@@ -58,16 +58,48 @@
 		C09745D6269B91E400B4BAF8 /* ColorApp */ = {
 			isa = PBXGroup;
 			children = (
-				C09745D7269B91E400B4BAF8 /* AppDelegate.swift */,
-				C09745D9269B91E400B4BAF8 /* SceneDelegate.swift */,
-				C09745DB269B91E400B4BAF8 /* SettingsViewController.swift */,
-				C09745DD269B91E400B4BAF8 /* Main.storyboard */,
-				C000228A26AC874500B39692 /* ColorViewController.swift */,
-				C09745E0269B91E500B4BAF8 /* Assets.xcassets */,
-				C09745E2269B91E500B4BAF8 /* LaunchScreen.storyboard */,
+				C098E1CD26ADF43300A94CB8 /* ViewControllers */,
+				C098E1CF26ADF46A00A94CB8 /* Resources */,
+				C098E1CE26ADF44C00A94CB8 /* Storyboards */,
+				C098E1CC26ADF3DF00A94CB8 /* Supporting Files */,
 				C09745E5269B91E500B4BAF8 /* Info.plist */,
 			);
 			path = ColorApp;
+			sourceTree = "<group>";
+		};
+		C098E1CC26ADF3DF00A94CB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C09745D7269B91E400B4BAF8 /* AppDelegate.swift */,
+				C09745D9269B91E400B4BAF8 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C098E1CD26ADF43300A94CB8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C09745DB269B91E400B4BAF8 /* SettingsViewController.swift */,
+				C000228A26AC874500B39692 /* ColorViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C098E1CE26ADF44C00A94CB8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C09745E2269B91E500B4BAF8 /* LaunchScreen.storyboard */,
+				C09745DD269B91E400B4BAF8 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C098E1CF26ADF46A00A94CB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C09745E0269B91E500B4BAF8 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
